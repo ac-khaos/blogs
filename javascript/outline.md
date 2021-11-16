@@ -1,26 +1,5 @@
-**函数和类也是对象**
+# JAVASCRIPT
 
-```javascript
-function func() {};
-func.a = 100;
-```
+[**基础知识必备**][1]
 
-*在react组件中可利用这点*
-
-```javascript
-function Layout() {
-    return <div>Layout</div>;
-}
-
-Layout.Header = function() {
-    return <div>Header</div>;
-}
-
-Layout.Sidebar = function() {
-    return <div>Siderbar</div>;
-}
-
-Layout.Content = function() {
-    return <div>Content</div>;
-}
-```
+[1]: ./basics.md
