@@ -109,3 +109,12 @@ const a = b || 100; // 这种写法的问题在于0、false、""都为假值
 // 改写为
 const a = b ?? 100;
 ```
+
+### void操作符
+```javascript
+// void先求值自己的操作数，后丢弃自己的操作数
+const voidTest = (count) => void count++;
+voidTest(1); // undefined
+```
+
+### 
