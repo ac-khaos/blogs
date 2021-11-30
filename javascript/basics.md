@@ -117,7 +117,19 @@ const voidTest = (count) => void count++;
 voidTest(1); // undefined
 ```
 
-#### Array
+#### 数组
+
+1. Array()
+
 ```
 当使用 new Array() 创建数组时，一个参数表达数组长度，多个参数表示具体元素，故这种方式无法创建一个元素的数组
 ```
+
+2. Array.of()
+
+```javascript
+// 以参数作为数组元素，解决上面问题
+Array.of(10); // [10]
+```
+
+3. Array.from()
