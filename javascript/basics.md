@@ -110,11 +110,14 @@ const a = b || 100; // 这种写法的问题在于0、false、""都为假值
 const a = b ?? 100;
 ```
 
-### void操作符
+#### void操作符
 ```javascript
 // void先求值自己的操作数，后丢弃自己的操作数
 const voidTest = (count) => void count++;
 voidTest(1); // undefined
 ```
 
-### 
+#### Array
+```
+当使用 new Array() 创建数组时，一个参数表达数组长度，多个参数表示具体元素，故这种方式无法创建一个元素的数组
+```
