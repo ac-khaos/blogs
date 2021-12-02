@@ -164,6 +164,15 @@ const arr2 = [,]; // arr2.length = 1
 
 #### 原型和原型链
 
+![prototype](./images/prototype.jpg)
+
+```
+1. prototype
+显式原型，函数对象独有属性，箭头函数没有
+2. __proto__
+隐式原型，几乎所有对象都有，指向它的构造函数的原型对象，所形成的的链式指向便是原型链
+```
+
 - __示例1__
 
 ```javascript
@@ -179,4 +188,16 @@ b.show(); // 123
 const a = {};
 Object.prototype === a.__proto__; // true
 Object.prototype === Object.prototype.constructor.prototype; // true
+```
+
+- __示例3__
+
+```javascript
+class A {};
+const a = new A();
+a.__proto__ === A.prototype; // true
+a.__proto__.__proto__ === A.prototype.__proto__; // true
+A.prototype.__proto__ === Object.prototype; // true
+A.__proto__ === Function.prototype; // true
+Function.prototype.__proto__ === Object.prototype; // true
 ```
