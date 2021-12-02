@@ -164,5 +164,19 @@ const arr2 = [,]; // arr2.length = 1
 
 #### 原型和原型链
 
-- prototype 原型对象(显式原型)
-- \_\_proto\_\_ 原型链(隐式原型)
+- __示例1__
+
+```javascript
+const a = {};
+a.__proto__.show = function () { return 123 };
+const b = {};
+b.show(); // 123
+```
+
+- __示例2__
+
+```javascript
+const a = {};
+Object.prototype === a.__proto__; // true
+Object.prototype === Object.prototype.constructor.prototype; // true
+```
