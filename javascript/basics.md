@@ -169,6 +169,7 @@ const arr2 = [,]; // arr2.length = 1
 ```
 1. prototype
 显式原型，函数对象独有属性，箭头函数没有
+
 2. __proto__
 隐式原型，几乎所有对象都有，指向它的构造函数的原型对象，所形成的的链式指向便是原型链
 ```
@@ -200,4 +201,32 @@ a.__proto__.__proto__ === A.prototype.__proto__; // true
 A.prototype.__proto__ === Object.prototype; // true
 A.__proto__ === Function.prototype; // true
 Function.prototype.__proto__ === Object.prototype; // true
+Object.prototype.__proto__; // null
+```
+
+- __示例4__
+
+```javascript
+const a = {};
+Object.prototype.toString.call(a) === a.__proto__.toString(); // true
+```
+
+
+#### 生成器
+
+```javascript
+function* generator() {
+    yield 1;
+    yield 2;
+    yield 3;
+}
+    
+// 斐波那契数
+function* fibonacci() {
+    let x = 0, y = 1;
+    for (;;) {
+        yield y;
+        [x, y] = [y, x + y];
+    }
+}
 ```
