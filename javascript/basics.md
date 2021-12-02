@@ -164,7 +164,7 @@ const arr2 = [,]; // arr2.length = 1
 
 #### 原型和原型链
 
-![prototype](./images/prototype.jpg)
+![prototype](./images/prototype.jpg =200)
 
 ```
 1. prototype
