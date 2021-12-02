@@ -132,4 +132,37 @@ voidTest(1); // undefined
 Array.of(10); // [10]
 ```
 
-3. Array.from()
+3. 稀疏数组
+
+```javascript
+const arr1 = [1,,3];
+const arr2 = [,]; // arr2.length = 1
+```
+
+4. 数组打平
+
+```javascript
+[1, [2, 3]].flat(); // [1, 2, 3]
+[1, [2, [3]]].flat(); // [1, 2, [3]]
+[1, [2, [3]]].flat(2); // [1, 2, 3]
+[1, [2, [3]]].flat(3); // [1, 2, 3]
+
+// flatMap(f)效率高于map(f)
+[1, [2, [3]]].flatMap((n) => n); // [1, 2, [3]]
+```
+
+5. copyWithin(target, start, end)
+
+```javascript
+/*
+* 复制指定切片到指定位置，修改原数组但不会改变数组长度，切片溢出部分会被丢弃
+* 切片为<start - (end -1)>
+* end 支持负数
+*/
+[6, 2, 3, 4, 5, 7].copyWithin(3, 2, 5); // [6, 2, 3, 3, 4, 5]
+```
+
+#### 原型和原型链
+
+- prototype 原型对象(显式原型)
+- __proto__ 原型链(隐式原型)
