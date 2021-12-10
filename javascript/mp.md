@@ -1,8 +1,6 @@
-# 高级编程
+# 元编程（MP）
 
-### 元编程（MP）
-
-狭义上，<span style="color: #0098e1; font-weight: 600;">MetaProgramming</span> 指编写能改变语言语法特性或者运行时特性的程序。
+狭义上，<span style="color: #0098e1; font-weight: 600;">Meta Programming</span> 指编写能改变语言语法特性或者运行时特性的程序。
 
 换言之，一种语言本来做不到的事情，通过你编程来修改它，扩展程序自身的能力。
 
@@ -186,10 +184,102 @@ Javascript允许对对象属性的控制
    3. 都有返回值，Object.freeze(Object.seal(Object.preventExtensions(obj)))
    ```
 
-   
 
-   
+#### 代理对象 Proxy
 
-### 函数式编程（FP）
+元编程特性之一，可以操作对象的基础行为。
 
-函数式编程（Function Programming）属于编程范式的一种。
+通过代理的方式可以很方便的控制对象的操作行为，vue3中监听器的原理就是使用Proxy。
+
+##### New Proxy(target, handler)
+
+创建一个可代理实例
+
+```javascript
+// 代理对象
+const obj = { x: 1, y: 2 };
+
+const proxyObj = new Proxy(obj, {
+  get(target, property) {
+    console.log("proxy getter!");
+    return target[property];
+  },
+  set(target, property, value) {
+    console.log("proxy setter!");
+    return (target[property] = value);
+  },
+  deleteProperty(target, property) {
+    console.log("proxy deleteProperty!");
+    return Reflect.deleteProperty(target, property);
+  },
+});
+
+proxyObj.y = 3; // proxy setter!
+proxyObj.y; // proxy getter!
+Reflect.deleteProperty(proxyObj, "y"); // proxy deleteProperty!
+console.log(obj, proxyObj); // { x: 1 } { x: 1 }
+
+// 代理class
+class Person {
+  name = "";
+  age = 0;
+  sex = 0;
+
+  constructor(p) {
+    this.name = p.name;
+    this.age = p.age;
+    this.sex = p.sex;
+  }
+}
+
+const proxyPerson = new Proxy(Person, {
+  construct(target, args) {
+    console.log("proxy constructor!");
+    return new target(...args);
+  },
+});
+
+const person = new proxyPerson({ name: "xiaojun", age: 28, sex: 1 }); // proxy constructor!
+console.log(person); // Person { name: 'xiaojun', age: 28, sex: 1 }
+```
+
+##### Proxy.revocable
+
+创建一个可撤销代理实例
+
+<span style="color: #0098e1;">当使用一些不信任的第三方库时可以通过 revoke 方法撤销当前代理</span>
+
+```javascript
+// 通过 revoke 可随时撤销代理
+const func = function () {
+  return 100;
+};
+
+const revocableFunc = Proxy.revocable(func, {});
+
+function librarySomeFunction(someFunc) {
+  console.log(someFunc());
+}
+
+librarySomeFunction(revocableFunc.proxy); // 100
+revocableFunc.revoke(); // 撤销代理后 revocableFunc.proxy 将不再能使用
+librarySomeFunction(revocableFunc.proxy); // TypeError
+```
+
+##### Proxy  Handler 可代理范围
+
+| 操作                     | 说明                                                         |
+| ------------------------ | ------------------------------------------------------------ |
+| get                      | 在读取代理对象的某个属性时触发该操作，比如在执行 proxy.foo 时 |
+| set                      | 在给代理对象的某个属性赋值时触发该操作，比如在执行 proxy.foo = 1 时 |
+| getPrototypeOf           | 在读取代理对象的原型时触发该操作，比如在执行 Object.getPrototypeOf(proxy) 时 |
+| setPrototypeOf           | 在设置代理对象的原型时触发该操作，比如在执行 Object.setPrototypeOf(proxy, null) 时 |
+| isExtensible             | 在判断一个代理对象是否是可扩展时触发该操作，比如在执行 Object.isExtensible(proxy) 时 |
+| preventExtensions        | 在让一个代理对象不可扩展时触发该操作，比如在执行 Object.preventExtensions(proxy) 时 |
+| getOwnPropertyDescriptor | 在获取代理对象某个属性的属性描述时触发该操作，比如在执行 Object.getOwnPropertyDescriptor(proxy, "foo") 时 |
+| defineProperty           | 在定义代理对象某个属性时的属性描述时触发该操作，比如在执行 Object.defineProperty(proxy, "foo", {}) 时 |
+| has                      | 在判断代理对象是否拥有某个属性时触发该操作，比如在执行 "foo" in proxy 时 |
+| deleteProperty           | 在删除代理对象的某个属性时触发该操作，比如在执行 delete proxy.foo 时 |
+| ownKeys                  | 在获取代理对象的所有属性键时触发该操作，比如在执行 Object.getOwnPropertyNames(proxy) 时 |
+| apply                    | 在调用一个目标对象为函数的代理对象时触发该操作，比如在执行 proxy() 时 |
+| construct                | 在给一个目标对象为构造函数的代理对象构造实例时触发该操作，比如在执行new proxy() 时 |
