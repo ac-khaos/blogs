@@ -233,3 +233,37 @@ function* fibonacci() {
     }
 }
 ```
+
+#### 事件派发
+
+```javascript
+// 事件注册
+document.addEventListener("testEvent", () => {
+  console.log("触发了 testEvent 事件监听!");
+});
+// 自定义事件
+const testEvent = new CustomEvent("testEvent", { detail: false });
+// 事件派发
+document.dispatchEvent(testEvent); // true 触发了 testEvent 事件监听!
+```
+
+#### 影子 DOM
+
+当我们需要封装一些DOM，并希望它是隐藏且独立的，影子DOM会很有帮助，比如video标签，它的DOM模块就是被隐藏在shadow-root之下。
+
+```html
+<div id="box"></div>
+```
+
+```javascript
+const boxElement = document.querySelector('#box');
+// 设置为影子DOM的根节点
+boxElement.attachShadow({mode: "open"});
+// 获取 shadow-root
+const boxElementShadowRoot = boxElement.shadowRoot;
+const shadowElement = document.createElement("div");
+shadowElement.innerHTML = "this is a shadow dom!";
+// 像常规DOM去操作影子DOM
+boxElementShadowRoot.appendChild(shadowElement);
+```
+
