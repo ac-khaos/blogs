@@ -29,6 +29,4 @@
 | *一般将来*     | *将来完成*     | *将来进行*     | *将来完成进行*     |
 | *一般过去将来* | *过去将来完成* | *过去将来进行* | *过去将来完成进行* |
 - 一般现在
-#+BEGIN_QUOTE
-The rabbit eats a carrot
-#+END_QUOTE
+  =The rabbit eats a carrot=
