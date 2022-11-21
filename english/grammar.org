@@ -29,12 +29,17 @@
 | *一般将来*     | *将来完成*     | *将来进行*     | *将来完成进行*     |
 | *一般过去将来* | *过去将来完成* | *过去将来进行* | *过去将来完成进行* |
 - 一般现在
+  
   =I eat a carrot=
 - 现在完成(/助动词have的变位+动词的过去分词/)
+  
   =I have eaten a carrot=
 - 现在进行(/助动词be的变位+动词的现在分词/)
+  
   =I am eating a carrot=
 - 现在完成进行(/have的变位+been+动词的现在分词/)
+  
   =I have been eating a carrot=
 - 一般过去(/动词的过去式/)
+  
   =I ate a carrot=
