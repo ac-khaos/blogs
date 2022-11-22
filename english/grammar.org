@@ -11,11 +11,20 @@
 - *复杂及物动词*
 - *(连)系动词*
 
-**** 非谓语动词
+**** 非谓语动词(/非限定动词/)
 - 动词不定式
 
   =To be or not to be, that is the question=
+- 动名词
 
+  =sleeping=
+- 现在分词
+  #+begin_center
+  现在分词可用作形容词
+  
+  =The story is interesting=
+  这里的interest转现在分词interesting用作形容词有趣的
+  #+end_center
 **** 时态
 - _时间_
 #+BEGIN_CENTER
