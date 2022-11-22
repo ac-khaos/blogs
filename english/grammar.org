@@ -13,15 +13,18 @@
 
 **** 非谓语动词(/非限定动词/)
 - 动词不定式
-
-  =To be or not to be, that is the question=
-  [-] 现在分词
-  #+begin_example
-  现在分词可用作形容词
-  The story is interesting
-  这里的interest转现在分词interesting用作形容词有趣的
-  #+end_example
-- 动名词
+#+begin_example
+To be or not to be, that is the question
+#+end_example
+[-] 现在分词
+#+begin_example
+现在分词可用作形容词
+The story is interesting
+这里的interest转现在分词interesting用作形容词有趣的
+现在分词作状语
+Hearing the news, ...
+#+end_example
+[-] 动名词
 
   =sleeping=
 **** 时态
