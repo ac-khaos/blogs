@@ -16,7 +16,8 @@
 #+begin_example
 To be or not to be, that is the question
 #+end_example
-[-] 现在分词
+- 动名词
+- 现在分词
 #+begin_example
 现在分词可用作形容词
 The story is interesting
@@ -24,7 +25,7 @@ The story is interesting
 现在分词作状语
 Hearing the news, ...
 #+end_example
-[-] 动名词
+- 过去分词
 
   =sleeping=
 **** 动词时态
