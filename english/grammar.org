@@ -15,10 +15,7 @@
 - 动词不定式
 
   =To be or not to be, that is the question=
-- 动名词
-
-  =sleeping=
-- 现在分词
+  [-] 现在分词
   #+begin_example
   _现在分词可用作形容词_
   
@@ -26,6 +23,9 @@
   
   这里的interest转现在分词interesting用作形容词有趣的
   #+end_example
+- 动名词
+
+  =sleeping=
 **** 时态
 - _时间_
 #+BEGIN_CENTER
