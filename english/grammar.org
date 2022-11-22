@@ -26,8 +26,10 @@ The story is interesting
 Hearing the news, ...
 #+end_example
 - 过去分词
-
-  =sleeping=
+#+begin_example
+The rabbit will eat minced carrot next week
+minced为过去分词做定语表搅碎的
+#+end_example
 **** 动词时态
 | 时间     | - | 状态     |
 | 现在     | - | 一般     |
