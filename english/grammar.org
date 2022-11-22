@@ -12,7 +12,7 @@
 =主语 + 谓语动词 + 宾语=
 #+end_center
 
-**** 谓语动词
+**** 谓语动词(/限定性动词/)
 | 不及物动词   | The rabbit slept                           |
 | 单及物动词   | The rabbit =ate= =a carrot=                |
 | 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
@@ -23,13 +23,18 @@
 - 动词不定式
 #+begin_example
 To be or not to be, that is the question
+I like to eat carrots
 #+end_example
 - 动名词
+#+begin_example
+I liked eating carrots
+Would you mind not closing the door?
+#+end_example
 - 现在分词
 #+begin_example
 现在分词可用作形容词
+I am a talking rabbit
 The story is interesting
-这里的interest转现在分词interesting用作形容词有趣的
 现在分词作状语
 Hearing the news, ...
 #+end_example
