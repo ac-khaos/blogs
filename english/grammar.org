@@ -1,7 +1,7 @@
 *** 语法笔记
-#+begin_verse
-11111
-#+end_verse
+#+begin_center
+个人语法笔记，记录常见的基本语法知识
+#+end_center
 
 **** 符号说明
 | vt | 及物动词 | - | vi  | 不及物动词 | - | v   | 动词 |
