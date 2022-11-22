@@ -13,11 +13,11 @@
 #+end_center
 
 **** 谓语动词
-| 不及物动词   | =The rabbit slept= |
-| 单及物动词   |                    |
-| 双及物动词   |                    |
-| 复杂及物动词 |                    |
-| (连)系动词   |                    |
+| 不及物动词   | The rabbit slept                           |
+| 单及物动词   | The rabbit =ate= =a carrot=                |
+| 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
+| 复杂及物动词 | The rabbit =considered= =the carrot= tasty |
+| (连)系动词   | The rabbit =is= smart                      |
 
 **** 非谓语动词(/非限定动词/)
 - 动词不定式
