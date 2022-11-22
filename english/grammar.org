@@ -14,10 +14,21 @@
 
 **** 谓语动词
 1. 不及物动词
+   #+begin_example
+   The rabbit _slept_
+   #+end_example
 2. 单及物动词
+   #+begin_example
+   #+end_example
 3. 双及物动词
+   #+begin_example
+   #+end_example
 4. 复杂及物动词
+   #+begin_example
+   #+end_example
 5. (连)系动词
+   #+begin_example
+   #+end_example
 
 **** 非谓语动词(/非限定动词/)
 - 动词不定式
