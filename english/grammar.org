@@ -85,4 +85,4 @@ minced为过去分词做定语表搅碎的
 
   =I said i would have been eating a carrot for 2 hours by 1PM tomorrow=
 
-[["./image/irregular-verbs.pdf"][不规则词汇大全]]
+[["./images/irregular-verbs.pdf"][不规则词汇大全]]
