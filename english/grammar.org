@@ -1,15 +1,15 @@
 *** 语法笔记
 **** 基本语法
-#+BEGIN_QUOTE
+#+begin_center
 主语 + 谓语动词 + 宾语
-#+END_QUOTE
+#+end_center
 
 **** 谓语动词
-- *不及物动词*
-- *单及物动词*
-- *双及物动词*
-- *复杂及物动词*
-- *(连)系动词*
+- 不及物动词
+- 单及物动词
+- 双及物动词
+- 复杂及物动词
+- (连)系动词
 
 **** 非谓语动词(/非限定动词/)
 - 动词不定式
@@ -84,5 +84,3 @@ minced为过去分词做定语表搅碎的
 - 过去将来完成进行
 
   =I said i would have been eating a carrot for 2 hours by 1PM tomorrow=
-
-[["./images/irregular-verbs.pdf"][不规则词汇大全]]
