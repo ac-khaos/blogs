@@ -17,10 +17,8 @@
   =To be or not to be, that is the question=
   [-] 现在分词
   #+begin_example
-  _现在分词可用作形容词_
-  
-  =The story is interesting=
-  
+  现在分词可用作形容词
+  The story is interesting
   这里的interest转现在分词interesting用作形容词有趣的
   #+end_example
 - 动名词
