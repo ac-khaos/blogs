@@ -30,7 +30,7 @@ I like to eat carrots
 I liked eating carrots
 Would you mind not closing the door?
 #+end_example
-- 现在分词
+- 现在分词(/暗含主动关系/)
 #+begin_example
 现在分词可用作形容词
 I am a talking rabbit
@@ -38,10 +38,17 @@ The story is interesting
 现在分词作状语
 Hearing the news, ...
 #+end_example
-- 过去分词
+- 过去分词(/暗含被动关系/)
 #+begin_example
 The rabbit will eat minced carrot next week
 minced为过去分词做定语表搅碎的
+#+end_example
+
+#+begin_example
+The rabbit was frightened
+兔子感到害怕(暗含被动，兔子对某事感到害怕，兔子被某事吓到了)
+The rabbit was frghtening
+兔子令人感到害怕(暗含主动，兔子让人感到害怕)
 #+end_example
 **** 时态
 | 时间     | - | 状态     |
