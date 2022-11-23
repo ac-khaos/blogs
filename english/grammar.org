@@ -57,7 +57,7 @@ The rabbit was frghtening
 | 过去     | - | 完成     |
 | 将来     | - | 进行     |
 | 过去将来 | - | 完成进行 |
-**** 时态组合
+***** 时态组合
 | 一般现在                                           | =I eat a carrot=                                                       |
 | 一般过去(/动词的过去式/)                           | =I ate a carrot=                                                       |
 | 一般将来(/will+原形/)                              | =I will eat a carrot=                                                  |
