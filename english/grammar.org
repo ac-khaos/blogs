@@ -12,7 +12,7 @@
 =主语 + 谓语动词 + 宾语=
 #+end_center
 
-**** 谓语动词 @<font color="#ff0000"> (/限定性动词/) @</font>
+**** 谓语动词(/限定性动词/)
 | 不及物动词   | The rabbit slept                           |
 | 单及物动词   | The rabbit =ate= =a carrot=                |
 | 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
@@ -24,6 +24,7 @@
 #+begin_example
 To be or not to be, that is the question
 I like to eat carrots
+动词不定式一般表将要发生的事
 #+end_example
 - 动名词
 #+begin_example
