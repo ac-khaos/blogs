@@ -12,7 +12,7 @@
 =主语 + 谓语动词 + 宾语=
 #+end_center
 
-**** 谓语动词(/限定性动词/)
+**** 谓语动词@<font color="red">(/限定性动词/)</font>
 | 不及物动词   | The rabbit slept                           |
 | 单及物动词   | The rabbit =ate= =a carrot=                |
 | 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
@@ -43,7 +43,7 @@ Hearing the news, ...
 The rabbit will eat minced carrot next week
 minced为过去分词做定语表搅碎的
 #+end_example
-=过去分词与现在分词的用法=
+=过去分词与现在分词的区别=
 #+begin_example
 The rabbit was frightened
 兔子感到害怕(暗含被动，兔子对某事感到害怕，兔子被某事吓到了)
