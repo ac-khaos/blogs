@@ -12,7 +12,7 @@
 =主语 + 谓语动词 + 宾语=
 #+end_center
 
-**** 谓语动词@<font color="red">(/限定性动词/)</font>
+**** 谓语动词@<font color="red">(/限定性动词/)@</font>
 | 不及物动词   | The rabbit slept                           |
 | 单及物动词   | The rabbit =ate= =a carrot=                |
 | 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
