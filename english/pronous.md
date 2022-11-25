@@ -1,8 +1,8 @@
 ### 代词
 <table>
     <tr>
-        <td colspan="2">人称代词</td>
-        <td colspan="2">物主代词</td>
+        <td colspan="2" align="center">人称代词</td>
+        <td colspan="2" align="center">物主代词</td>
     </tr>
     <tr>
         <td>主格</td>
