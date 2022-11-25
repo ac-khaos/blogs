@@ -1,0 +1,55 @@
+### 代词
+<table>
+    <tr>
+        <td colspan="2">人称代词</td>
+        <td colspan="2">物主代词</td>
+    </tr>
+    <tr>
+        <td>主格</td>
+        <td>宾格</td>
+        <td>形容词性</td>
+        <td>名词性</td>
+    </tr>
+    <tr>
+        <td>I</td>
+        <td>me</td>
+        <td>my</td>
+        <td>mine</td>
+    </tr>
+    <tr>
+        <td>we</td>
+        <td>us</td>
+        <td>our</td>
+        <td>ours</td>
+    </tr>
+    <tr>
+        <td>you</td>
+        <td>you</td>
+        <td>your</td>
+        <td>yours</td>
+    </tr>
+    <tr>
+        <td>he</td>
+        <td>him</td>
+        <td>his</td>
+        <td>his</td>
+    </tr>
+    <tr>
+        <td>they</td>
+        <td>them</td>
+        <td>their</td>
+        <td>theirs</td>
+    </tr>
+    <tr>
+        <td>she</td>
+        <td>her</td>
+        <td>her</td>
+        <td>hers</td>
+    </tr>
+    <tr>
+        <td>it</td>
+        <td>it</td>
+        <td>its</td>
+        <td>its</td>
+    </tr>
+</table>
