@@ -1,5 +1,5 @@
 | =原形=  | =过去式= | =过去分词= | =汉语意思= |
-|---------+----------+------------+------------|
+|---------|----------|------------|------------|
 | bet     | -        | -          | 打赌       |
 | cost    | -        | -          | 耗费(钱)   |
 | cut     | -        | -          | 切，割     |
@@ -9,11 +9,9 @@
 | put     | -        | -          | 放         |
 | read    | -        | -          | 读         |
 | set     | -        | -          | 安排，设置 |
-|---------+----------+------------+------------|
 | become  | became   | become     | 成为       |
 | come    | came     | come       | 来         |
 | run     | ran      | run        | 跑         |
-|---------+----------+------------+------------|
 | eat     | ate      | eaten      | 吃         |
 | fall    | fell     | fallen     | 落下       |
 | forbid  | forbade  | forbidden  | 禁止       |
@@ -21,14 +19,12 @@
 | ride    | rode     | ridden     | 骑         |
 | see     | saw      | seen       | 看见       |
 | write   | wrote    | written    | 写         |
-|---------+----------+------------+------------|
 | break   | broke    | broken     | 打破，折断 |
 | choose  | chose    | chosen     | 选择       |
 | forget  | forgot   | forgotten  | 忘记       |
 | freeze  | froze    | frozen     | 冻         |
 | speak   | spoke    | spoken     | 说         |
 | wear    | wore     | worn       | 穿         |
-|---------+----------+------------+------------|
 | blow    | blew     | blown      | 吹         |
 | draw    | drew     | drawn      | 画         |
 | fly     | flew     | flown      | 飞         |
