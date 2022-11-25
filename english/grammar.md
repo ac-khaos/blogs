@@ -1,63 +1,69 @@
-*** 语法笔记
-#+begin_example
+### 语法笔记
+```
 个人语法笔记，记录常见的基本语法知识
-#+end_example
+```
 
-**** 符号说明
+#### 符号说明
 | vt | 及物动词 | - | vi  | 不及物动词 | - | v   | 动词 |
+|----|----------|---|-----|------------|---|-----|------|
 | n  | 名词     | - | adj | 形容词     | - | adv | 副词 |
 
-**** 基本语法构成
-#+begin_center
-=主语 + 谓语动词 + 宾语=
-#+end_center
+#### 基本语法构成
+```
+主语 + 谓语动词 + 宾语
+```
 
-**** 谓语动词(/限定性动词/)
+#### 谓语动词(**限定性动词**)
+|--------------|--------------------------------------------|
 | 不及物动词   | The rabbit slept                           |
 | 单及物动词   | The rabbit =ate= =a carrot=                |
 | 双及物动词   | The rabbit =gave= =the wolf= =a carrot=    |
 | 复杂及物动词 | The rabbit =considered= =the carrot= tasty |
 | (连)系动词   | The rabbit =is= smart                      |
+|--------------|--------------------------------------------|
 
-**** 非谓语动词(/非限定动词/)
+#### 非谓语动词(**非限定动词**)
 - 动词不定式
-#+begin_example
+```
 To be or not to be, that is the question
 I like to eat carrots
 动词不定式一般表将要发生的事
-#+end_example
+```
 - 动名词
-#+begin_example
+```
 I liked eating carrots
 Would you mind not closing the door?
-#+end_example
-- 现在分词(/暗含主动关系/)
-#+begin_example
+```
+- 现在分词(*暗含主动关系*)
+```
 现在分词可用作形容词
 I am a talking rabbit
 The story is interesting
 现在分词作状语
 Hearing the news, ...
-#+end_example
+```
 - 过去分词(/暗含被动关系/)
-#+begin_example
+```
 The rabbit will eat minced carrot next week
 minced为过去分词做定语表搅碎的
-#+end_example
-=过去分词与现在分词的区别=
-#+begin_example
+```
+##### 过去分词与现在分词的区别
+```
 The rabbit was frightened
 兔子感到害怕(暗含被动，兔子对某事感到害怕，兔子被某事吓到了)
 The rabbit was frghtening
 兔子令人感到害怕(暗含主动，兔子让人感到害怕)
-#+end_example
-**** 时态
+```
+#### 时态
+|----------|---|----------|
 | 时间     | - | 状态     |
 | 现在     | - | 一般     |
 | 过去     | - | 完成     |
 | 将来     | - | 进行     |
 | 过去将来 | - | 完成进行 |
-***** 时态组合
+|----------|---|----------|
+##### 时态组合
+|----------------------------------------------------|------------------------------------------------------------------------|
 | 一般现在                                           | =I eat a carrot=                                                       |
 | 一般过去(/动词的过去式/)                           | =I ate a carrot=                                                       |
 | 一般将来(/will+原形/)                              | =I will eat a carrot=                                                  |
@@ -74,4 +80,4 @@ The rabbit was frghtening
 | 过去完成进行(/have的过去变位+been+动词的现在分词/) | =I had been eating a carrot=                                           |
 | 将来完成进行                                       | =I will have been eating a carrot=                                     |
 | 过去将来完成进行                                   | =I said i would have been eating a carrot for 2 hours by 1PM tomorrow= |
-
+|----------------------------------------------------|------------------------------------------------------------------------|
